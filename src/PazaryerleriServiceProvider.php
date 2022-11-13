@@ -3,7 +3,7 @@
 namespace Tulparstudyo;
 
 use Illuminate\Support\ServiceProvider;
-
+use Illuminate\Support\Facades\Route;
 class PazaryerleriServiceProvider extends ServiceProvider
 {
 	/**
@@ -23,7 +23,6 @@ class PazaryerleriServiceProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		echo "boot";
-		//
+		Route::get('/pazarama', function () { return ['status'=>1]; });
 	}
 }

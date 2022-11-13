@@ -16,7 +16,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/theseer/tulparstudyo/pazaryerleri"
+        "issues": "https://github.com/tulparstudyo/pazaryerleri"
     },
     "require": {
         "php": "^7.2 || ^8.0",
